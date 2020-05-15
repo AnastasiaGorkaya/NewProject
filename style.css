@@ -1,0 +1,61 @@
+#start{
+    height: 701px; 
+    background-image: url(../export/start_bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/**Секция с книжкой**/
+#thisisboucy{
+    height: 463px;
+/** background-image: url(../export/section1_bg.jpg);**/
+    background-color: blueviolet;
+}
+
+/**Details**/
+#detailsaboutbouncy{
+    height: 585px;
+    background-color: #f3f3f3;
+}
+
+/**Featured projects**/
+#featuredprojects{
+    height: 634px;
+    background-color: #942424;
+}
+
+/**Our sevvices**/
+#ourservices{
+    height: 606px;
+    background-color: cornflowerblue;
+}
+
+/**Contact us**/
+#contactus{
+    height: 192px;
+    background-color: black;
+}
+
+/**Prise and contacts**/
+#priseandcontacts{
+    height: 1100px;
+    background-color: chocolate;
+}
+
+/**Forma**/
+#forma{
+    height: 524px;
+    background-color: darkslategrey;
+}
+
+/**Map**/
+#map{
+    height: 472px;
+    background-color: khaki;
+}
+
+/**Footer**/
+#footer{
+    height: 229px;
+    background-color: midnightblue;
+}
