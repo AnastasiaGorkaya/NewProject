@@ -1,12 +1,5 @@
 
-/* Обнуление*/
-.zero{
-	padding: 0;
-	margin: 0;
-	border: 0;
-}
 
-/*Типографика*/
 
 
 /*BigJohn Font */
@@ -26,8 +19,12 @@ font-family: "Open Sans";
 font-size: 15px;
 font-weight: 400;
 line-height: 11.39px;
-
 }
+
+.indent_nav{
+padding-left: 20px;
+}
+
 
 #stroke{
     width: 77px;
@@ -98,67 +95,169 @@ line-height: 26.57px;
 letter-spacing: 0.8px;
 margin-bottom: 0;
 }
+/*Типографика*/
 
+/*Шрифт для всех заголовков*/
+.font_4_title{
+    color: #333b46;
+    font-family: "Source Sans Pro";
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 11.39px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
 
+/*Шрифт для всех тектов*/
+.font_4_text{
+    color: #81868e;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23.72px;
+    letter-spacing: 0.7px;
+}
 
+/*For section #2*/
+#bg_sec_2{
+    background-color: #ffffff;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**Секция с книжкой**/
-#thisisboucy{
+#h_sec_2{
     height: 463px;
-/** background-image: url(../export/section1_bg.jpg);**/
-    background-color: rgb(119, 119, 119);
 }
 
-/**Details**/
-#detailsaboutbouncy{
-    height: 585px;
-    background-color: #f3f3f3;
+#info_sec_2{
+    padding-top:76px;
+    padding-bottom: 55px;
 }
+
+#topic_sec_2{   
+    /*location*/
+    padding-left: 174px;
+    padding-top: 30px;
+    margin-bottom:42px; 
+}
+
+#text_sec_2{
+    /* Style for "At vero eo..." */
+    text-align:auto;
+    /*location*/
+    padding-left: 173px;
+    padding-right: 112px;
+    margin-bottom: 29px;
+    } 
+
+#button_sec_2{
+/* Style for "Read More" */
+    color: #333b46;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 11.39px;
+/*location*/
+    padding: 10px 27px 10px 27px;
+    margin-left: 175px; 
+    }
+
+.border_btn{
+    border-radius: 18px  !important;
+    width: 134px;
+    height: 36px;
+}
+
+/*Section_3_Details*/
+
+#bg_sec_3{
+    background-color: #f3f3f3;
+    padding: 73px 0 93px 0;
+}
+
+#h_sec_3{
+    height: 585px;
+}
+
+#topic_sec_3{
+/*location*/
+    height: 18px;
+    text-align:center;
+    margin-bottom: 0;
+    
+}
+
+#text_sec_3{
+    height: 41px;
+    /*location*/
+    margin-top: 35px;
+    margin-bottom: 54px;
+    text-align: center;
+}   
+
+.icon_sec_3{
+    width: 51px; 
+    float: left;
+    margin-left: 25px;
+}
+
+#box_4_icon{
+    padding-left: 48.5px; 
+}
+
+#topic2_sec_3{
+    margin-top: 55px;
+    height: 19px;
+    padding-left: 67px;
+}
+
+#text1_sec_3{
+    height: 100px;
+    width: 309px;
+    margin-top: 33px;
+    margin-left: 67px;
+    text-align: left;
+    font-size: 15px;
+    line-height: 26.57px !important;
+}
+
+#text2_sec_3{
+    height: 112px;
+    width: 493px;
+    margin-top: 108px;
+    margin-left: 88px;
+    text-align: start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**Featured projects**/
 #featuredprojects{
